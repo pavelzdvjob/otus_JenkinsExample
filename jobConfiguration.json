@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/Kyrales/jenkins-lib/devkyr/resources/schema.json",
-  "v8version": "8.3.25.1546",
+  "v8version": "8.3.27.1508",
   "edtVersion": "",
   "srcDir": "src/cf",
   "sourceFormat": "designer",
@@ -13,13 +13,13 @@
   },
   "stages": {
     "initSteps": true,
-    "sonarqube": true,
+    "sonarqube": false,
     "bdd": true,
     "syntaxCheck": true,
     "edtValidate": false,
     "smoke": false,
     "yaxunit": true,
-    "email": true,
+    "email": false,
     "telegram": false
   },
   "timeout": {
@@ -43,18 +43,8 @@
     "initMethod": "fromStorage",
     "runMigration": true,
     "additionalInitializationSteps": [],
-    "templateDBPath": "e:/1C/build/Demo83_otus/1Cv8.1CD",
+    "templateDBPath": "C:/1c/test_base/etalon/Platform8Demo1/1Cv8.1CD",
     "vrunnerSettings": "./tools/vrunner.json",
-    "extensions": [
-      {
-        "initMethod": "fromSource",
-        "name": "YAXUNIT",
-        "path": "./src/cfe/yaxunit",
-        "stages": [
-          "yaxunit"
-        ]
-      }
-    ]
   },
   "bdd": {
     "vrunnerSteps": [
