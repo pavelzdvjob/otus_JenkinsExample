@@ -25,7 +25,7 @@
     {
       "name": "otus",
       "path": "C:/1c/test_base/dev/hran",
-      "dir": "C:/1c/test_base/dev/Platform8Demo1",
+      "dir": "./scr/cf",
       "temp-dir": "",
       "v8version": "8.3.27.1508",
       "plugins-config": {
