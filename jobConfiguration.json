@@ -45,6 +45,16 @@
     "additionalInitializationSteps": [],
     "templateDBPath": "C:/1c/test_base/etalon/Platform8Demo1/1Cv8.1CD",
     "vrunnerSettings": "./tools/vrunner.json",
+    "extensions": [
+      {
+        "initMethod": "fromSource",
+        "name": "YAXUNIT",
+        "path": "./src/cfe/yaxunit",
+        "stages": [
+          "yaxunit"
+        ]
+      }
+    ]
   },
   "bdd": {
     "vrunnerSteps": [
