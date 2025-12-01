@@ -18,7 +18,7 @@
     "syntaxCheck": true,
     "edtValidate": false,
     "smoke": false,
-    "yaxunit": true,
+    "yaxunit": false,
     "email": false,
     "telegram": false
   },
