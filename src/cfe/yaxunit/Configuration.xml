@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
 	<Configuration uuid="8ebe57d7-1182-4eea-bdda-375c1e0262e4">
 		<InternalInfo>
 			<xr:ContainedObject>
@@ -28,8 +28,24 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>0eb6edb8-80d2-4695-83c3-d19cb90833b5</xr:ObjectId>
+				<xr:ObjectId>5bbdbe75-cab0-4626-a418-d8e6c9d265b1</xr:ObjectId>
 			</xr:ContainedObject>
+			<xr:PropertyState>
+				<xr:Property>ManagedApplicationModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+			<xr:PropertyState>
+				<xr:Property>OrdinaryApplicationModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+			<xr:PropertyState>
+				<xr:Property>CommandInterface</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+			<xr:PropertyState>
+				<xr:Property>MainSectionCommandInterface</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
 			<ObjectBelonging>Adopted</ObjectBelonging>
@@ -47,7 +63,7 @@
 			<ConfigurationExtensionCompatibilityMode>Version8_3_10</ConfigurationExtensionCompatibilityMode>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>24.12</Version>
+			<Version>25.04</Version>
 			<BriefInformation/>
 			<DetailedInformation/>
 			<Copyright/>
@@ -81,7 +97,9 @@
 			<CommonTemplate>ЮТ_СловарьПодражателя_Люди_МужскиеИмена_ru</CommonTemplate>
 			<CommonTemplate>ЮТ_СловарьПодражателя_Люди_МужскиеОтчества_ru</CommonTemplate>
 			<CommonTemplate>ЮТ_СловарьПодражателя_Люди_МужскиеФамилии_ru</CommonTemplate>
+			<CommonTemplate>ЮТMonacoEditor</CommonTemplate>
 			<CommonTemplate>ЮТRegEx1CAddin</CommonTemplate>
+			<CommonTemplate>ЮТWebSocketAddIn</CommonTemplate>
 			<CommonTemplate>ЮТYaxUnitAddIn</CommonTemplate>
 			<CommonTemplate>ЮТИнформацияОбОшибке</CommonTemplate>
 			<CommonTemplate>ЮТОписаниеМетаданных</CommonTemplate>
@@ -90,7 +108,10 @@
 			<CommonModule>МокитоПерехват</CommonModule>
 			<CommonModule>МокитоПроверки</CommonModule>
 			<CommonModule>МокитоСлужебный</CommonModule>
+			<CommonModule>ЮТАлюр</CommonModule>
 			<CommonModule>ЮТАсинхроннаяОбработкаСлужебныйКлиент</CommonModule>
+			<CommonModule>ЮТВнешниеОбработкиСлужебныйСервер</CommonModule>
+			<CommonModule>ЮТВнешнийЗапускТестовСлужебныйКлиент</CommonModule>
 			<CommonModule>ЮТДымовыеТесты</CommonModule>
 			<CommonModule>ЮТДымовыеТестыСлужебныйВызовСервера</CommonModule>
 			<CommonModule>ЮТДымовыеТестыСлужебныйКлиентСервер</CommonModule>
@@ -125,8 +146,8 @@
 			<CommonModule>ЮТЛогированиеСлужебныйВызовСервера</CommonModule>
 			<CommonModule>ЮТЛогИсполненияТестаСлужебный</CommonModule>
 			<CommonModule>ЮТМетаданные</CommonModule>
-			<CommonModule>ЮТМетаданныеСлужебный</CommonModule>
 			<CommonModule>ЮТМетаданныеСлужебныйВызовСервера</CommonModule>
+			<CommonModule>ЮТМетаданныеСлужебныйКлиентСервер</CommonModule>
 			<CommonModule>ЮТМетаданныеСлужебныйПовтИсп</CommonModule>
 			<CommonModule>ЮТМетоды</CommonModule>
 			<CommonModule>ЮТМетодыСлужебный</CommonModule>
@@ -159,11 +180,14 @@
 			<CommonModule>ЮТПроверкиСлужебный</CommonModule>
 			<CommonModule>ЮТРазрешениеЗависимостейСлужебныйВызовСервера</CommonModule>
 			<CommonModule>ЮТРазрешениеЗависимостейСлужебныйКлиент</CommonModule>
+			<CommonModule>ЮТРеактивныйКлиент</CommonModule>
+			<CommonModule>ЮТРеактивныйСервер</CommonModule>
 			<CommonModule>ЮТРегистрацияОшибок</CommonModule>
 			<CommonModule>ЮТРегистрацияОшибокСлужебный</CommonModule>
 			<CommonModule>ЮТСлужебныйПовторногоИспользования</CommonModule>
 			<CommonModule>ЮТСобытияСлужебный</CommonModule>
 			<CommonModule>ЮТСообщенияСлужебный</CommonModule>
+			<CommonModule>ЮТСостояниеИсполненияТестовСлужебный</CommonModule>
 			<CommonModule>ЮТСравнениеСлужебныйВызовСервера</CommonModule>
 			<CommonModule>ЮТСравнениеСлужебныйКлиентСервер</CommonModule>
 			<CommonModule>ЮТСравнениеСлужебныйСервер</CommonModule>
@@ -183,15 +207,23 @@
 			<CommonModule>ЮТФильтрацияСлужебный</CommonModule>
 			<CommonModule>ЮТЧитательСлужебный</CommonModule>
 			<CommonModule>ЮТЧитательСлужебныйВызовСервера</CommonModule>
-			<CommonModule>ОМ_ПервыйТест</CommonModule>
-			<CommonModule>ОМ_API_ОписанияТоваров</CommonModule>
-			<CommonModule>Док_РасходТовара</CommonModule>
+			<CommonModule>ЮТЧитательСлужебныйКлиент</CommonModule>
+			<CommonModule>Док_ПриходТовара_МО</CommonModule>
+			<CommonModule>Док_РасходТовара_МО</CommonModule>
+			<CommonModule>Справочники_МО</CommonModule>
+			<CommonModule>Движения_МО</CommonModule>
 			<DataProcessor>ЮТHTTPServiceRequest</DataProcessor>
+			<DataProcessor>ЮТHTTPОтвет</DataProcessor>
 			<DataProcessor>ЮТHTTPСервисЗапрос</DataProcessor>
+			<DataProcessor>ЮТHTTPСоединение</DataProcessor>
 			<DataProcessor>ЮТRecordSet</DataProcessor>
+			<DataProcessor>ЮТГенераторКода</DataProcessor>
 			<DataProcessor>ЮТКонструкторДвижений</DataProcessor>
 			<DataProcessor>ЮТКонструкторОбъектаXDTO</DataProcessor>
 			<DataProcessor>ЮТКонструкторТестовыхДанных</DataProcessor>
+			<DataProcessor>ЮТРедакторМакетаСТестовымиДанными</DataProcessor>
+			<DataProcessor>ЮТРедакторОбработки</DataProcessor>
+			<DataProcessor>ЮТРедакторТестов</DataProcessor>
 			<DataProcessor>ЮТСообщениеСервисаИнтеграции</DataProcessor>
 			<DataProcessor>ЮТЮнитТесты</DataProcessor>
 		</ChildObjects>
